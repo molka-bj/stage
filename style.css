@@ -1,0 +1,39 @@
+.cll{
+    text-decoration: line-through;
+    color: gray;
+}
+body{
+    background-color:azure ;
+}
+fieldset{
+    border-radius: 30%;
+    text-align: center;
+    border-width: 10px;
+    border-style:inset;
+    border-color:  rgb(133, 167, 167);
+    background-color: white;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 200px;
+}
+h1{
+    color: rgb(133, 167, 167);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-style: italic;  
+}
+input,botton{
+border-radius: 30%;
+    text-align: center;
+    border-width: 5px;
+    border-style:inset;
+    border-color:  rgb(133, 167, 167);
+    background-color: white;
+}
+@media (max-width:750px ){
+    fieldset{
+        width: 200px;
+        margin-left: 30%;
+        margin-top: 200px;
+    }
+}
